@@ -2,7 +2,7 @@ from transformers import TFBertModel, BertTokenizer
 import tensorflow as tf
 from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
 
-MODEL_PATH = '/home/alridho/Coding/jentara/sentimen.h5'
+MODEL_PATH = 'sentimen.h5'
 CHECKPOINT = "indobenchmark/indobert-base-p2"
 
 model = tf.keras.models.load_model(MODEL_PATH)
