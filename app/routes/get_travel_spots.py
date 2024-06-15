@@ -17,7 +17,7 @@ async def get_travel_spots(
 
     payload = {
         "includedTypes": includedTypes,
-        "maxResultCount": 5,
+        "maxResultCount": 15,
         "locationRestriction": {
             "circle": {
                 "center": {
