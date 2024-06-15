@@ -32,7 +32,7 @@ async def get_travel_spots(
 
     headers = {
         "Content-Type": "application/json",
-        "X-Goog-Api-Key": "Masukkan API Key di sini",
+        "X-Goog-Api-Key": "AIzaSyCtu2-DXpwxkzszAzGokEqg1vaDzQAgLas",
         "X-Goog-FieldMask": "places.displayName,places.reviews,places.location,places.formattedAddress,places.photos"
     }
 
